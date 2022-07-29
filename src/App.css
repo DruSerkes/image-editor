@@ -77,9 +77,30 @@ body {
   grid-area: slider;
   margin-top: 2rem;
   padding: 2rem;
+  position: relative;
+  font-size: 20px;
 }
 
 .slider {
   cursor: pointer;
   width: 100%;
+}
+
+.range-value-container {
+  position: relative;
+}
+
+.min-range {
+  position: absolute;
+  left: 0%;
+}
+
+.value-range {
+  position: absolute;
+  left: 49%;
+}
+
+.max-range {
+  position: absolute;
+  left: 97%;
 }

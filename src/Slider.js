@@ -12,6 +12,11 @@ export const Slider = ({ min, max, value, name, changeValue }) => {
         max={max}
         onChange={handleChange}
       />
+      <div className='range-value-container'>
+        <span className='min-range'>{min}</span>
+        <span className='value-range'>{value}</span>
+        <span className='max-range'>{max}</span>
+      </div>
     </div>
   )
 };
